@@ -1,16 +1,16 @@
 [package]
-name = "sub_projects"
-publish = false
+name = "glimp"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "..."
-repository = "https://github.com/oovm/sub_projects"
-documentation = "https://docs.rs/sub_projects"
+repository = "https://github.com/oovm/glimp"
+documentation = "https://docs.rs/glimp"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
 
 [dependencies]
+wgpu = "0.15.1"
 
 [dev-dependencies]
 
