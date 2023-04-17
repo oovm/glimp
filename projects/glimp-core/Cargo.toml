@@ -1,16 +1,17 @@
 [package]
-name = "glimp"
+name = "mural"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
-description = "..."
-repository = "https://github.com/oovm/glimp"
-documentation = "https://docs.rs/glimp"
+description = "GPU-based image processing library"
+repository = "https://github.com/oovm/mural"
+documentation = "https://docs.rs/mural"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
+resolver = "2"
 
 [dependencies]
-wgpu = "0.15.1"
+wgpu-types = "0.15.2"
 
 [dev-dependencies]
 

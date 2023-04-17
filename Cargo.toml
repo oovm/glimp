@@ -1,3 +1,5 @@
+resolver = "2"
+
 [workspace]
 members = ["projects/*"]
 default-members = [
@@ -6,6 +8,7 @@ default-members = [
 exclude = [
     "projects/.DS_Store",
 ]
+
 
 [profile.release]
 lto = true
